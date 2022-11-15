@@ -10,16 +10,13 @@ const process = require('process');
 let myArgv = process.argv.slice(2);
 
 //check to make sure code is working
-console.log(myArgv);
+// console.log(myArgv);
 
 //create variables to store the numerals (CLI arguments I have added to array)
-let num1 = myArgv[0];
-let num2 = myArgv[1];
+let num1 = JSON.parse(myArgv[0]);
+let num2 = JSON.parse(myArgv[1]);
 
-const sum1 = JSON.parse(`${num1}` + `${num2}`);
+const sum1 = num1 + num2;
 
-console.log(sum1);
-
-// WHY IS THIS CONCATINATING? THIS IS MAKING 20 + 10 = 2010 FIX NEEDED
-
+console.log("the sum of 2 integers entered in CLI after the command 'node ./sum.js' are ", sum1);
 

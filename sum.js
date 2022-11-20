@@ -20,5 +20,7 @@ const sum1 = num1 + num2;
 
 console.log("the sum of 2 integers entered in CLI after the command 'node ./sum.js' are ", sum1);
 
-//Multiple attempts required to get the correct syntax - remember to keep code simple. That's why I was getting concatonation instead of addition! Also the parse on this occasion seems to have worked better at variable declaration than trying to include it in a function later in the code. 
+//Multiple attempts required to get the correct syntax - remember to keep code simple. 
+//That's why I was getting concatonation instead of addition! 
+//Also the parse on this occasion seems to have worked better at variable declaration than trying to include it in a function later in the code. 
 //.exit is the command to exit node.js 
